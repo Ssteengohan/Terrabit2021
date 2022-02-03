@@ -83,7 +83,7 @@ navbar();
                 $mail->Subject = 'Wachtwoord vergeten';
                 $mail->Body = 'Hoi ' . $user . ' <br>
                 Wat jammer dat je wachtwoord bent vergeten <br>
-                Klik op wachtwoord vergeten om je wachtwoord te resetten: <a href=wachtwoord-vergeten.php?email=' . $email . '>Wachtwoord vergeten?</a>';
+                Klik op wachtwoord vergeten om je wachtwoord te resetten: <a href=http://localhost/Terrabit2021/wachtwoord-vergeten.php?email=' . $email . '>Wachtwoord vergeten?</a>';
                 $mail->AddAddress($email);
                 if (!$mail->Send())
                 {
