@@ -97,7 +97,7 @@ if (isset($_POST['aanmelden']))
             $mail->Subject = 'Email verification';
             $mail->Body = 'Hoi ' . $user . ' 
       Leuk dat je wilt aanmelden bij terrabit!
-      hier is je bevestig link: <a href=verify.php?email=' . $email . '&hash=' . $hash . '>Activeer je account</a>';
+      hier is je bevestig link: <a href=http://localhost/Terrabit2021/verify.php?email=' . $email . '&hash=' . $hash . '>Activeer je account</a>';
             $mail->AddAddress($email);
             if (!$mail->Send())
             {
