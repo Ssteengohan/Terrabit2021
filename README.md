@@ -1,7 +1,3 @@
 ****Scrum Project 1e Jaars****
 
-Team:
-    _Wirin
-    Daan
-    Gio
-    Ismail_
+In de map Databse kan je vinden om in je mysql bestand vinden
